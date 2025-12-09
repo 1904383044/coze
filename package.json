@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "tsc --noEmit && vite build",
+    "build": "tsc && vite build",
     "lint": "eslint . --max-warnings 0",
     "preview": "vite preview",
     "run-preinstall": "node scripts/preinstall.cjs",
